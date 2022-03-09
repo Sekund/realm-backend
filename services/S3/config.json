@@ -1,0 +1,11 @@
+{
+	"name": "S3",
+	"type": "aws",
+	"config": {
+		"accessKeyId": ""
+	},
+	"secret_config": {
+		"secretAccessKey": "s3secret"
+	},
+	"version": 1
+}

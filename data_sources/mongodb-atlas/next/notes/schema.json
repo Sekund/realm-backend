@@ -1,0 +1,78 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "assets": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "string"
+            }
+        },
+        "comments": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "author": {
+                        "bsonType": "objectId"
+                    },
+                    "created": {
+                        "bsonType": "long"
+                    },
+                    "text": {
+                        "bsonType": "string"
+                    },
+                    "updated": {
+                        "bsonType": "long"
+                    }
+                }
+            }
+        },
+        "content": {
+            "bsonType": "string"
+        },
+        "created": {
+            "bsonType": "long"
+        },
+        "firstPublished": {
+            "bsonType": "long"
+        },
+        "lastPublished": {
+            "bsonType": "long"
+        },
+        "path": {
+            "bsonType": "string"
+        },
+        "publicLink": {
+            "bsonType": "objectId"
+        },
+        "sharing": {
+            "bsonType": "object",
+            "properties": {
+                "groups": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "objectId"
+                    }
+                },
+                "peoples": {
+                    "bsonType": "array",
+                    "items": {
+                        "bsonType": "objectId"
+                    }
+                }
+            }
+        },
+        "title": {
+            "bsonType": "string"
+        },
+        "updated": {
+            "bsonType": "long"
+        },
+        "userId": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "note"
+}

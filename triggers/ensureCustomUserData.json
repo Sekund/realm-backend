@@ -1,0 +1,19 @@
+{
+    "name": "ensureCustomUserData",
+    "type": "AUTHENTICATION",
+    "config": {
+        "operation_type": "LOGIN",
+        "providers": [
+            "local-userpass",
+            "api-key"
+        ]
+    },
+    "disabled": false,
+    "event_processors": {
+        "FUNCTION": {
+            "config": {
+                "function_name": "ensureCustomUserData"
+            }
+        }
+    }
+}

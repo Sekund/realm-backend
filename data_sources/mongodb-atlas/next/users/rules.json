@@ -1,0 +1,39 @@
+{
+    "collection": "users",
+    "database": "next",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "_id": {
+                    "%stringToOid": "%%user.custom_data._id"
+                }
+            },
+            "write": true,
+            "insert": true,
+            "delete": false,
+            "search": true,
+            "additional_fields": {}
+        },
+        {
+            "name": "APIKey",
+            "apply_when": {
+                "%%user.id": "617a9bd532fed3d412b52f24"
+            },
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        },
+        {
+            "name": "search",
+            "apply_when": {},
+            "read": true,
+            "insert": false,
+            "delete": false,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

@@ -1,0 +1,229 @@
+[
+    {
+        "name": "upload",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "groupNotes",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "notesDir",
+        "private": false
+    },
+    {
+        "name": "removeSharingPeople",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "setNoteIsRead",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getCustomUserDataId",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "resetPassword",
+        "private": true
+    },
+    {
+        "name": "publishedNotes",
+        "private": false
+    },
+    {
+        "name": "getGroup",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "people",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "removeSharingGroup",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getGroups",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "upsertNote",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "deleteGroup",
+        "private": false
+    },
+    {
+        "name": "findUserByNameOrEmail",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "download",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "isNameTaken",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getNoteReferences",
+        "private": false
+    },
+    {
+        "name": "confirmUser",
+        "private": false
+    },
+    {
+        "name": "addContactRequest",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getNoteByPath",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "getNoteUsers",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "hasReadAccessToNote",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "addSharingPeople",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "deleteNote",
+        "private": false
+    },
+    {
+        "name": "isOwnNote",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "permissions",
+        "private": false
+    },
+    {
+        "name": "editComment",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "removeComment",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "whitelistedUsersAndGroups",
+        "private": false
+    },
+    {
+        "name": "getUserInfos",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "addComment",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "ensureCustomUserData",
+        "private": false
+    },
+    {
+        "name": "upsertGroup",
+        "private": false
+    },
+    {
+        "name": "notifyNoteUsers",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "leaveGroup",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "userNotes",
+        "private": false
+    },
+    {
+        "name": "addEvent",
+        "private": true,
+        "run_as_system": true
+    },
+    {
+        "name": "peoples",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "addSharingGroup",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "updateNoteReferences",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "allSharedNotes",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "removeAsset",
+        "private": false
+    },
+    {
+        "name": "getNote",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "notifyUsers",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "unreadNotes",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "renameNote",
+        "private": false,
+        "run_as_system": true
+    },
+    {
+        "name": "setPermissionStatus",
+        "private": false,
+        "run_as_system": true
+    }
+]

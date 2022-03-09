@@ -1,0 +1,28 @@
+{
+    "collection": "permissions",
+    "database": "next",
+    "roles": [
+        {
+            "name": "areContacts",
+            "apply_when": {
+                "$or": [
+                    {
+                        "%%root.userId": {
+                            "%stringToOid": "%%user.custom_data._id"
+                        }
+                    },
+                    {
+                        "%%root.user": {
+                            "%stringToOid": "%%user.custom_data._id"
+                        }
+                    }
+                ]
+            },
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}

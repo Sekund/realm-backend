@@ -1,0 +1,26 @@
+{
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "created": {
+            "bsonType": "long"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "peoples": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "objectId"
+            }
+        },
+        "updated": {
+            "bsonType": "long"
+        },
+        "userId": {
+            "bsonType": "objectId"
+        }
+    },
+    "title": "group"
+}

@@ -1,0 +1,20 @@
+{
+    "collection": "events",
+    "database": "next",
+    "roles": [
+        {
+            "name": "owner",
+            "apply_when": {
+                "userId": {
+                    "%stringToOid": "%%user.custom_data._id"
+                }
+            },
+            "read": true,
+            "write": true,
+            "insert": true,
+            "delete": true,
+            "search": true,
+            "additional_fields": {}
+        }
+    ]
+}
