@@ -1,1 +1,3 @@
-2021_10_07_03_50_1633614636_PM
+# Sekund's Mongodb Realm App
+
+Deploy this repo as a Realm app to create your own Sekund backend.
